@@ -22,7 +22,6 @@ library(devtools)
 use_github(
   organisation = NULL,
   private = FALSE,
-  visibility = c("public", "private", "internal"),
   protocol = git_protocol(),
   host = NULL
 )
