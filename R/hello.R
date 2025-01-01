@@ -1,6 +1,6 @@
 # Hello, world!
 #
-# This is an example function named 'hello' 
+# This is an example function named 'hello'
 # which prints 'Hello, world!'.
 #
 # You can learn more about package authoring with RStudio at:
@@ -16,3 +16,13 @@
 hello <- function() {
   print("Hello, world!")
 }
+
+library(devtools)
+
+use_github(
+  organisation = NULL,
+  private = FALSE,
+  visibility = c("public", "private", "internal"),
+  protocol = git_protocol(),
+  host = NULL
+)
